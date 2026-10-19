@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Currency Converter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CurrencyConverter">
+
+        <!-- Main App Configuration Screen -->
+        <activity
+            android:name="com.currencyconverter.ui.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CurrencyConverter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Translucent Overlay Dialog Activity (Internal only) -->
+        <activity
+            android:name="com.currencyconverter.ui.QuickConvertActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CurrencyConverter.TranslucentDialog"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:launchMode="singleInstance" />
+
+        <!-- Quick Settings Tile Service -->
+        <service
+            android:name="com.currencyconverter.tile.QuickConvertTileService"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:label="Quick Convert"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Glance Widget Receiver -->
+        <receiver
+            android:name="com.currencyconverter.widget.CurrencyWidgetReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/currency_widget_info" />
+        </receiver>
+
+    </application>
+
+</manifest>
