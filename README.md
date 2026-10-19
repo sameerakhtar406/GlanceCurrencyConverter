@@ -90,7 +90,9 @@
 ## 🧮 Math & Conversion Strategy
 
 Offline pair conversions are calculated dynamically against a cached USD base matrix using cross-rates:
-$$\text{Target Amount} = \text{Amount} \times \left(\frac{\text{Rate}_{\text{Target}}}{\text{Rate}_{\text{Source}}}\right)$$
+
+<img width="920" height="164" alt="image" src="https://github.com/user-attachments/assets/79588d1b-37f6-4b9d-b0ff-1389adbea0ec" />
+
 
 This approach keeps the cached storage lightweight (<50 KB) while supporting arbitrary conversions between 150+ global currencies offline.
 
