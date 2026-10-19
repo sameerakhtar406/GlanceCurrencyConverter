@@ -61,7 +61,7 @@
 
 ### Option 1: Install APK (For Users)
 
-1. Head over to the [Releases Page](https://github.com/sameerakhtar406GlanceCurrencyConverter/releases) and download `CurrencyConverter-v1.0.apk`.
+1. Head over to the [Releases Page](https://github.com/sameerakhtar406/GlanceCurrencyConverter/releases/tag/v1.0.0) and download `CurrencyConverter-v1.0.apk`.
 2. Tap the downloaded file on your Android phone to install.
 3. If prompted by Android, enable **Allow from this source**.
 4. Add the **Currency Converter** widget to your phone's home screen!
