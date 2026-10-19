@@ -20,7 +20,7 @@
 
 | Home Screen Widget | 1-Tap Quick Convert Dialog | Main Configuration App |
 |:------------------:|:--------------------------:|:----------------------:|
-|<img width="1187" height="2513" alt="Screenshot_20261019_170803" src="https://github.com/user-attachments/assets/d56c36d0-8757-4a8c-94c3-78cf92a3e44d" /> |<img width="1187" height="2513" alt="Screenshot_20261019_170940" src="https://github.com/user-attachments/assets/826d43c2-3907-4102-b456-d40afc529de8" />|<img width="1187" height="2513" alt="Screenshot_20261019_170220" src="https://github.com/user-attachments/assets/171b0225-5d64-45be-a79a-c708056e5c9e" />
+|<img width="1187" height="2513" alt="Screenshot_20261019_170803" src="https://github.com/user-attachments/assets/d56c36d0-8757-4a8c-94c3-78cf92a3e44d" />|<img width="1187" height="2513" alt="Screenshot_20261019_170940" src="https://github.com/user-attachments/assets/826d43c2-3907-4102-b456-d40afc529de8" />|<img width="1187" height="2513" alt="Screenshot_20261019_170220" src="https://github.com/user-attachments/assets/171b0225-5d64-45be-a79a-c708056e5c9e" />
 
 
 
