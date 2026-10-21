@@ -5,6 +5,8 @@
 
 ---
 
+![me](https://github.com/sameerakhtar406/GlanceCurrencyConverter/blob/main/1792419249112.1792568932399.publer.com.gif)
+
 ## ✨ Key Features
 
 * **⚡ 1-Tap Overlay Dialog:** Tap the home screen widget to trigger a translucent conversion card with an auto-focused numeric keyboard. Zero launch latency.
