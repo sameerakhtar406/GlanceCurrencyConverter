@@ -1,11 +1,13 @@
-# GlanceCurrencyConverter (RoamRate) ⚡ 
+# GlanceCurrencyConverter (RoamRate) 
 
 > **Ultra-fast, offline-first Android currency converter powered by Jetpack Glance & Compose.**  
 > Designed for globetrotters, frequent flyers, and digital nomads who need instant price conversions on the go without relying on an active internet connection or opening heavy apps.
 
 ---
 
-![me](https://github.com/sameerakhtar406/GlanceCurrencyConverter/blob/main/1792419249112.1792568932399.publer.com.gif)
+<p align="center">
+  <img src="1792419249112.1792568932399.publer.com.gif" width="280" alt="RoamRate Demo GIF">
+</p>
 
 ## ✨ Key Features
 
